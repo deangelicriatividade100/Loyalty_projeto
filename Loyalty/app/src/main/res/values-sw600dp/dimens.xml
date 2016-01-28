@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- dimens sw600dp -->
+
+    <dimen name="top_layout_login">100dp</dimen>
+    <dimen name="padding_lados_login">100dp</dimen>
+    <dimen name="top_margem_layouts">30dp</dimen>
+    <dimen name="left_right_padding">25dp</dimen>
+    <dimen name="top_margem_nome_cliente_detalhe">50dp</dimen>
+    <dimen name="top_margem_info_detalhe">45dp</dimen>
+    <dimen name="view_margem_top">15dp</dimen>
+    <dimen name="top_margem_foto">50dp</dimen>
+    <dimen name="top_margem_tarja">80dp</dimen>
+    <dimen name="view_margem_top_conta">25dp</dimen>
+
+
+</resources>

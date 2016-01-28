@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding_layout_left_right"
+    android:paddingRight="@dimen/padding_layout_left_right"
+    android:layout_marginTop="@dimen/margem_top_layout">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/voltar_detalhes2"
+        android:background="@drawable/voltar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo_detalhe2"
+        android:text="Detalhes"
+        android:layout_centerHorizontal="true"
+        style="@style/titulos_telas_secundarias"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nome_cliente_detalhe2"
+        android:text="Ana Paula Nunes"
+        android:layout_below="@id/titulo_detalhe2"
+        android:layout_centerHorizontal="true"
+        style="@style/nome_cliente_detalhe"
+        android:layout_marginTop="@dimen/margem_top_nome_cliente_detalhe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo_profissao2"
+        android:layout_below="@id/nome_cliente_detalhe2"
+        android:layout_centerHorizontal="true"
+        android:text="Advogada"
+        android:layout_marginTop="@dimen/margem_top_titulo_nome_cliente"
+        style="@style/titulo_profissao_detalhe"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/foto_detalhe2"
+        android:src="@drawable/foto"
+        android:layout_below="@id/titulo_profissao2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margem_top_foto_detalhe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/afiliado2"
+        android:text="Afiliado Loyalty 055.000.018.665"
+        android:layout_below="@id/foto_detalhe2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margem_top_afiliados"
+        style="@style/afiliado"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saldo2"
+        android:text="SALDO"
+        android:layout_below="@id/afiliado2"
+        android:layout_marginTop="@dimen/margem_infos_detalhe"
+        style="@style/infos_detalhe"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado_saldo2"
+        android:text="R$ 100,00"
+        android:layout_below="@id/saldo2"
+        android:layout_marginTop="@dimen/resultado_saldo_margem_top"
+        style="@style/resultado_detalhes"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/linha_3"
+        android:background="@color/cor_linha"
+        android:layout_below="@id/resultado_saldo2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resgate"
+        android:text="RESGATE"
+        android:layout_below="@id/linha_3"
+        android:layout_marginTop="@dimen/margem_infos_detalhe"
+        style="@style/infos_detalhe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado_resgate"
+        android:text="R$ 60,25"
+        android:layout_below="@id/resgate"
+        android:layout_marginTop="@dimen/resultado_saldo_margem_top"
+        style="@style/resultado_detalhes"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/linha_4"
+        android:background="@color/cor_linha"
+        android:layout_below="@id/resultado_resgate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/codigo_oferta"
+        android:text="CÓDIGO DE OFERTA"
+        android:layout_below="@id/linha_4"
+        android:layout_marginTop="@dimen/margem_infos_detalhe"
+        style="@style/infos_detalhe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numero_telefone"
+        android:text="ASDF21"
+        android:layout_below="@id/codigo_oferta"
+        android:layout_marginTop="@dimen/resultado_saldo_margem_top"
+        style="@style/resultado_detalhes"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/linha_5"
+        android:background="@color/cor_linha"
+        android:layout_below="@id/numero_telefone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/data"
+        android:text="DATA"
+        android:layout_below="@id/linha_5"
+        android:layout_marginTop="@dimen/margem_infos_detalhe"
+        style="@style/infos_detalhe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descricao_data"
+        android:text="9:00-15/12/2015"
+        android:layout_below="@id/data"
+        android:layout_marginTop="@dimen/resultado_saldo_margem_top"
+        style="@style/resultado_detalhes"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/linha_6"
+        android:background="@color/cor_linha"
+        android:layout_below="@id/descricao_data"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/historio2"
+       android:layout_below="@id/linha_6"
+       android:src="@drawable/historico2"
+       android:layout_marginTop="@dimen/margem_infos_detalhe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:text="STATUS"
+        android:layout_below="@id/linha_6"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/historio2"
+        android:layout_marginTop="@dimen/margem_infos_detalhe"
+        style="@style/infos_detalhe"/>
+
+</RelativeLayout>

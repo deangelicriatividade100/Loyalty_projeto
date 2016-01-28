@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Dimens loyalty. -->
+
+    <dimen name="padding_layout_left_right">15dp</dimen>
+    <dimen name="margem_top_layout">20dp</dimen>
+    <dimen name="height_edit_text">45dp</dimen>
+    <dimen name="margem_top_fotos_">15dp</dimen>
+    <dimen name="margem_top_entre_clientes">20dp</dimen>
+    <dimen name="margem_right_foto_nome">10dp</dimen>
+    <dimen name="margem_top_profissao_cliente">7dp</dimen>
+    <dimen name="margem_top_nome_cliente_detalhe">10dp</dimen>
+    <dimen name="margem_top_titulo_nome_cliente">12dp</dimen>
+    <dimen name="margem_top_foto_detalhe">10dp</dimen>
+    <dimen name="margem_top_afiliados">7dp</dimen>
+    <dimen name="margem_infos_detalhe">10dp</dimen>
+    <dimen name="resultado_saldo_margem_top">7dp</dimen>
+    <dimen name="margem_top_ponto_vermelho">15dp</dimen>
+    <dimen name="margem_usuario_top">8dp</dimen>
+    <dimen name="margem_right_img_usuario">20dp</dimen>
+    <dimen name="margem_top_info_cashback">18dp</dimen>
+    <dimen name="margem_top_icones">15</dimen>
+    <dimen name="margem_dois_teladois">13dp</dimen>
+    <dimen name="padding_top_layout_meio">20dp</dimen>
+    <dimen name="padding_lados_layout_maio">35dp</dimen>
+    <dimen name="margem_numero_layout_meio">10dp</dimen>
+    <dimen name="margem_da_view">25dp</dimen>
+    <dimen name="height_layout_compra">100dp</dimen>
+    <dimen name="padding_layout_compra">30dp</dimen>
+    <dimen name="margem_img_historico">30dp</dimen>
+
+
+</resources>

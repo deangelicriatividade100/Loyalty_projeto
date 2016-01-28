@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parte_cima"
+        android:paddingLeft="@dimen/left_right_padding"
+        android:paddingRight="@dimen/left_right_padding"
+        android:layout_marginTop="@dimen/top_margem_layouts">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voltar_cashback"
+            android:background="@drawable/voltar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cashback"
+            android:text="Cashback"
+            android:layout_centerHorizontal="true"
+            style="@style/cashback"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_ok_cashback"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ok"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/imagem_usuario"
+        android:layout_below="@id/parte_cima"
+        android:background="#fff"
+        android:layout_marginTop="@dimen/margem_usuario_top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/usuario_back"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagem_usuario"
+        android:paddingLeft="@dimen/padding_layout_left_right"
+        android:paddingRight="@dimen/padding_layout_left_right"
+        android:layout_marginTop="@dimen/margem_top_layout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/usuario_img"
+            android:src="@drawable/nomefull"
+            android:layout_marginRight="@dimen/margem_right_img_usuario"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/usuario_img"
+            android:id="@+id/afiliado2"
+            android:text="Afiliado"
+            android:layout_marginTop="10dp"
+            style="@style/infos_cashback"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linha_3"
+            android:background="@color/cor_linha"
+            android:layout_below="@id/usuario_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/view_margem_top_conta"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valor_img"
+            android:src="@drawable/cartas"
+            android:layout_below="@id/linha_3"
+            android:layout_marginTop="@dimen/margem_top_icones"
+            android:layout_marginRight="@dimen/margem_right_img_usuario"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valor"
+            android:text="Valor"
+            style="@style/infos_cashback"
+            android:layout_below="@id/linha_3"
+            android:layout_toRightOf="@id/valor_img"
+            android:layout_marginTop="@dimen/margem_top_info_cashback" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linha_4"
+            android:background="@color/cor_linha"
+            android:layout_below="@id/valor_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/view_margem_top_conta"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pilha_img"
+            android:src="@drawable/pilha"
+            android:layout_below="@id/linha_4"
+            android:layout_marginTop="@dimen/margem_top_icones"
+            android:layout_marginRight="@dimen/margem_right_img_usuario"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resgate_cashback"
+            android:layout_below="@id/linha_4"
+            android:layout_toRightOf="@id/pilha_img"
+            android:layout_marginTop="@dimen/margem_top_info_cashback"
+            android:text="Resgate"
+            style="@style/infos_cashback"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linha_5"
+            android:background="@color/cor_linha"
+            android:layout_below="@id/resgate_cashback"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/view_margem_top_conta" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/codigo_img"
+            android:src="@drawable/codigo"
+            android:layout_below="@id/linha_5"
+            android:layout_marginTop="@dimen/margem_top_icones"
+            android:layout_marginRight="@dimen/margem_right_img_usuario"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/codigo_oferta"
+            android:text="Código de Oferta"
+            android:layout_below="@id/linha_5"
+            android:layout_toRightOf="@id/codigo_img"
+            style="@style/infos_cashback"
+            android:layout_marginTop="@dimen/margem_top_info_cashback" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linha_6"
+            android:background="@color/cor_linha"
+            android:layout_below="@id/codigo_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/view_margem_top_conta" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

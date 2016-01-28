@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding_layout_left_right"
+    android:paddingRight="@dimen/padding_layout_left_right"
+    android:layout_marginTop="@dimen/margem_top_layout">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo_app"
+        android:src="@drawable/loyalty_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="90dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_login"
+        android:layout_below="@id/logo_app"
+        android:src="@drawable/codigo"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_app"
+        android:id="@+id/name_login"
+        style="@style/titulos_tela_home"
+        android:text="NAME"
+        android:layout_toRightOf="@id/img_login"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:id="@+id/edit_login"
+        android:layout_below="@id/name_login"
+        android:layout_toRightOf="@id/img_login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:hint="Enter name"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:maxLength="250"
+        android:paddingLeft="10dp"
+        android:textColorHint="#dad6d6"
+        android:background="#fff"/>
+    <View
+        android:layout_width="180dp"
+        android:layout_height="1dp"
+        android:id="@+id/linha_1"
+        android:background="@color/cor_linha"
+        android:layout_below="@id/edit_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_password"
+        android:layout_below="@id/linha_1"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/codigo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        style="@style/titulos_tela_home"
+        android:layout_below="@id/linha_1"
+        android:layout_toRightOf="@id/img_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="PASSWORD"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_edit_text"
+        android:id="@+id/edit_password"
+        android:layout_below="@id/password"
+        android:textColorHint="#dad6d6"
+        android:layout_toRightOf="@id/img_password"
+        android:background="#fff"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:maxLength="250"
+        android:inputType="textPassword"/>
+    <View
+        android:layout_width="180dp"
+        android:layout_height="1dp"
+        android:id="@+id/linha_2"
+        android:background="@color/cor_linha"
+        android:layout_below="@id/edit_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botao_help"
+        android:layout_below="@id/linha_2"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/help"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/botao_help"
+        android:background="@drawable/botao"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>

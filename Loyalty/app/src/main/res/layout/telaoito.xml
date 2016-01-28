@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/parte_cima4"
+            android:paddingLeft="@dimen/padding_layout_left_right"
+            android:paddingRight="@dimen/padding_layout_left_right"
+            android:layout_marginTop="@dimen/margem_top_layout">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/voltar_compras"
+                android:background="@drawable/voltar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/compra"
+                android:layout_centerHorizontal="true"
+                style="@style/titulos_telas_secundarias"
+                android:text="Compra"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pesquisar_detalhes"
+                android:background="@drawable/pesquisar"
+                android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/parte_data"
+            android:layout_below="@id/parte_cima4"
+            android:background="@color/cor_backgroud"
+            android:layout_marginTop="@dimen/margem_top_layout">
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="65dp"
+            android:background="@color/cor_view" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/data_compra"
+               android:layout_centerVertical="true"
+               android:text="TERÇA, 9 DE MARÇO"
+               android:layout_marginLeft="@dimen/margem_da_view"
+               style="@style/data_compra"/>
+
+        </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/height_layout_compra"
+           android:id="@+id/layout_final"
+           android:background="#fff"
+           android:layout_below="@id/parte_data"
+           android:paddingLeft="@dimen/padding_layout_left_right"
+           android:paddingRight="@dimen/padding_layout_left_right"
+           android:paddingTop="@dimen/padding_layout_compra">
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/foto_compra"
+               android:layout_marginRight="@dimen/margem_right_foto_nome"
+               android:src="@drawable/foto_pequena" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/nome_cliente_compra"
+               android:layout_below="@id/botao_pesquisar_tela_tres"
+               android:text="Janet Jonson"
+               android:layout_toRightOf="@id/foto_compra"
+               style="@style/nomes_cliente" />
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/historico_compra"
+               android:src="@drawable/historico"
+               android:layout_marginRight="@dimen/margem_img_historico"
+               android:layout_toLeftOf="@id/horas_detalhe"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/horas_detalhe"
+               android:text="8:30"
+               android:layout_alignParentRight="true"
+               style="@style/nomes_cliente" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/nome_valor_compra"
+               android:text="Valor:R$ 100,00"
+               android:layout_below="@id/nome_cliente_compra"
+               android:layout_toRightOf="@id/foto_compra"
+               style="@style/nome_profissao_cliente"
+               android:layout_marginTop="@dimen/margem_top_profissao_cliente"/>
+
+       </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

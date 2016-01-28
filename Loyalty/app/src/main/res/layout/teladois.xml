@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parte_cima_teladois"
+        android:paddingLeft="@dimen/padding_layout_left_right"
+        android:paddingRight="@dimen/padding_layout_left_right"
+        android:layout_marginTop="@dimen/margem_top_layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo_teladois"
+        android:layout_centerHorizontal="true"
+        android:text="Pará Cabos"
+        style="@style/titulo_tela_dois"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botao_logout_tela_dois"
+        android:background="@drawable/logout"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/foto_teladois"
+        android:src="@drawable/foto"
+        android:layout_below="@id/titulo_teladois"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margem_top_foto_detalhe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nome_usuario_teladois"
+        android:layout_below="@id/foto_teladois"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margem_top_titulo_nome_cliente"
+        android:text="Maria de Souza"
+        style="@style/titulo_profissao_detalhe"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/layout_meio"
+        android:layout_below="@id/parte_cima_teladois"
+        android:background="#ebf2f7"
+        android:layout_marginTop="@dimen/margem_dois_teladois"
+        android:paddingTop="@dimen/padding_top_layout_meio"
+        android:paddingLeft="@dimen/padding_lados_layout_maio"
+        android:paddingRight="@dimen/padding_lados_layout_maio">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ok_img"
+            android:src="@drawable/ok"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ok_img"
+            android:text="64"
+            style="@style/estilo_numero_layout_meio"
+            android:layout_marginTop="@dimen/margem_numero_layout_meio"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/historico"
+            android:background="@drawable/historico"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/historico"
+            android:text="32"
+            style="@style/estilo_numero_layout_meio"
+            android:layout_marginTop="@dimen/margem_numero_layout_meio"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelar"
+            android:src="@drawable/cancelar"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            style="@style/estilo_numero_layout_meio"
+            android:layout_marginTop="@dimen/margem_numero_layout_meio"
+            android:layout_below="@id/cancelar"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botoes_teladois"
+        android:layout_below="@id/layout_meio">
+
+            <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_cliente"
+            android:background="#fff"
+            android:src="@drawable/botao_cliente"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linha_3"
+            android:background="@color/cor_linha"
+            android:layout_below="@id/botao_cliente" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_compra"
+            android:layout_below="@id/linha_3"
+            android:src="@drawable/botao_compras"
+            android:background="#fff"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linha_4"
+            android:background="@color/cor_linha"
+            android:layout_below="@id/botao_compra" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_beneficio"
+            android:layout_below="@id/linha_4"
+            android:background="#fff"
+            android:src="@drawable/botao_beneficios"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linha_5"
+            android:background="@color/cor_linha"
+            android:layout_below="@id/botao_beneficio" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botao_mensagem"
+            android:layout_below="@id/linha_5"
+            android:background="#fff"
+            android:src="@drawable/botao_mensagem"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linha_6"
+            android:background="@color/cor_linha"
+            android:layout_below="@id/botao_mensagem" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
