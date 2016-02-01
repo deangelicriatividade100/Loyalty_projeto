@@ -20,8 +20,8 @@
             style="@style/titulo_tela_dois"/>
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icone"
+            android:layout_height="@dimen/tamanho_icone"
             android:id="@+id/botao_logout_tela_dois"
             android:background="@drawable/logout"
             android:layout_alignParentRight="true"/>
@@ -49,7 +49,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="130dp"
         android:id="@+id/layout_meio"
         android:layout_below="@id/parte_cima_teladois"
         android:background="#ebf2f7"
@@ -59,8 +59,8 @@
         android:paddingRight="@dimen/padding_lados_layout_maio">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icone"
+            android:layout_height="@dimen/tamanho_icone"
             android:id="@+id/ok_img"
             android:src="@drawable/ok"/>
 
@@ -73,8 +73,8 @@
             android:layout_marginTop="@dimen/margem_numero_layout_meio"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icone"
+            android:layout_height="@dimen/tamanho_icone"
             android:id="@+id/historico"
             android:background="@drawable/historico"
             android:layout_centerHorizontal="true"/>
@@ -89,8 +89,8 @@
             android:layout_centerHorizontal="true"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icone"
+            android:layout_height="@dimen/tamanho_icone"
             android:id="@+id/cancelar"
             android:src="@drawable/cancelar"
             android:layout_alignParentRight="true"/>
@@ -161,7 +161,7 @@
             android:id="@+id/botao_mensagem"
             android:layout_below="@id/linha_5"
             android:background="#fff"
-            android:src="@drawable/mensagem_botao"/>
+            android:src="@drawable/funciona"/>
 
 
         <View

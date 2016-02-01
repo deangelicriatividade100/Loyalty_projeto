@@ -3,5 +3,5 @@
     <drawable name="botao_cliente">@drawable/cliente_botao</drawable>
     <drawable name="botao_compras">@drawable/compras_botao</drawable>
     <drawable name="botao_beneficios">@drawable/beneficios_botao</drawable>
-    <drawable name="botao_mensagem">@drawable/mensagem_botao</drawable>
+    <drawable name="botao_mensagem">@drawable/funciona</drawable>
 </resources>

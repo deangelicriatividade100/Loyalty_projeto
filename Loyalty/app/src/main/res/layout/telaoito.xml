@@ -16,8 +16,8 @@
             android:layout_marginTop="@dimen/margem_top_layout">
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/tamanho_icons_tela_normal"
+                android:layout_height="@dimen/tamanho_icons_tela_normal"
                 android:id="@+id/voltar_compras"
                 android:background="@drawable/voltar"/>
 
@@ -29,8 +29,8 @@
                 style="@style/titulos_telas_secundarias"
                 android:text="Compra"/>
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/tamanho_icons_tela_normal"
+                android:layout_height="@dimen/tamanho_icons_tela_normal"
                 android:id="@+id/pesquisar_detalhes"
                 android:background="@drawable/pesquisar"
                 android:layout_alignParentRight="true"/>
@@ -89,8 +89,8 @@
                style="@style/nomes_cliente" />
 
            <ImageView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
+               android:layout_width="@dimen/tamanho_icons_tela_normal"
+               android:layout_height="@dimen/tamanho_icons_tela_normal"
                android:id="@+id/historico_compra"
                android:src="@drawable/historico"
                android:layout_marginRight="@dimen/margem_img_historico"

@@ -7,8 +7,8 @@
     android:layout_marginTop="@dimen/top_layout_login">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
         android:id="@+id/logo_app"
         android:src="@drawable/loyalty_logo"
         android:layout_centerHorizontal="true"
@@ -16,11 +16,11 @@
         android:layout_marginBottom="90dp"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icone"
+        android:layout_height="@dimen/tamanho_icone"
         android:id="@+id/img_login"
         android:layout_below="@id/logo_app"
-        android:src="@drawable/codigo"
+        android:src="@drawable/user"
         android:layout_marginTop="15dp"/>
 
     <TextView
@@ -57,12 +57,12 @@
         android:layout_marginTop="5dp"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icone"
+        android:layout_height="@dimen/tamanho_icone"
         android:id="@+id/img_password"
         android:layout_below="@id/linha_1"
         android:layout_marginTop="45dp"
-        android:src="@drawable/codigo" />
+        android:src="@drawable/passwordicon" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -86,6 +86,7 @@
         android:layout_marginTop="7dp"
         android:layout_marginLeft="20dp"
         android:paddingLeft="10dp"
+        android:text="senhaloyalty"
         android:inputType="textPassword"/>
     <View
         android:layout_width="180dp"

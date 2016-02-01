@@ -12,8 +12,8 @@
         android:layout_marginTop="@dimen/margem_top_layout">
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icons_tela_normal"
+        android:layout_height="@dimen/tamanho_icons_tela_normal"
         android:id="@+id/voltar_cashback"
         android:background="@drawable/voltar"/>
 
@@ -25,8 +25,8 @@
         android:layout_centerHorizontal="true"
         style="@style/cashback"/>
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icons_tela_normal"
+        android:layout_height="@dimen/tamanho_icons_tela_normal"
         android:id="@+id/botao_ok_cashback"
         android:layout_alignParentRight="true"
         android:background="@drawable/ok"/>
@@ -58,8 +58,8 @@
         android:layout_marginTop="@dimen/margem_top_layout">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/usuario_img"
             android:src="@drawable/nomefull"
             android:layout_marginRight="@dimen/margem_right_img_usuario"/>
@@ -83,8 +83,8 @@
             android:layout_marginTop="10dp"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/valor_img"
             android:src="@drawable/cartas"
             android:layout_below="@id/linha_3"
@@ -110,8 +110,8 @@
             android:layout_marginTop="10dp"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/pilha_img"
             android:src="@drawable/pilha"
             android:layout_below="@id/linha_4"
@@ -138,8 +138,8 @@
             android:layout_marginTop="10dp" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/codigo_img"
             android:src="@drawable/codigo"
             android:layout_below="@id/linha_5"

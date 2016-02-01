@@ -7,20 +7,19 @@
     android:layout_marginTop="@dimen/margem_top_layout">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
         android:id="@+id/logo_app"
         android:src="@drawable/loyalty_logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="90dp"/>
+        android:layout_marginBottom="10dp"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icons_tela_normal"
+        android:layout_height="@dimen/tamanho_icons_tela_normal"
         android:id="@+id/img_login"
         android:layout_below="@id/logo_app"
-        android:src="@drawable/codigo"
+        android:src="@drawable/user"
         android:layout_marginTop="15dp"/>
 
     <TextView
@@ -59,12 +58,12 @@
         android:layout_marginTop="5dp"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icons_tela_normal"
+        android:layout_height="@dimen/tamanho_icons_tela_normal"
         android:id="@+id/img_password"
         android:layout_below="@id/linha_1"
         android:layout_marginTop="45dp"
-        android:src="@drawable/codigo" />
+        android:src="@drawable/passwordicon" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -89,7 +88,8 @@
         android:layout_marginLeft="20dp"
         android:paddingLeft="10dp"
         android:maxLength="250"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:text="senhaloyalty"/>
     <View
         android:layout_width="180dp"
         android:layout_height="1dp"
@@ -106,7 +106,7 @@
         android:layout_below="@id/linha_2"
         android:layout_alignParentRight="true"
         android:background="@drawable/help"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="10dp"/>
 
     <ImageButton
         android:layout_width="wrap_content"

@@ -12,8 +12,8 @@
         android:layout_marginTop="@dimen/margem_top_layout">
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icons_tela_normal"
+        android:layout_height="@dimen/tamanho_icons_tela_normal"
         android:id="@+id/voltar_criar_conta"
         android:background="@drawable/voltar"/>
 
@@ -52,8 +52,8 @@
         android:layout_below="@id/imagem_usuario">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/usuario_img"
             android:src="@drawable/nomefull"
             android:layout_marginRight="@dimen/margem_right_img_usuario"/>
@@ -64,7 +64,7 @@
             android:layout_toRightOf="@id/usuario_img"
             android:id="@+id/nome"
             android:text="Nome"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/dimens_conta"
             style="@style/infos_cashback"/>
 
         <View
@@ -78,12 +78,12 @@
 
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/cpf_img"
             android:layout_below="@id/linha_3"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/codigo"
+            android:layout_marginTop="@dimen/conta_margem_top"
+            android:src="@drawable/cpf"
             android:layout_marginRight="@dimen/margem_right_img_usuario"/>
 
         <TextView
@@ -93,7 +93,7 @@
             android:text="CPF"
             android:layout_toRightOf="@id/cpf_img"
             android:layout_below="@id/linha_3"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/dimens_conta"
             style="@style/infos_cashback"/>
 
         <View
@@ -106,19 +106,19 @@
             android:layout_marginTop="10dp"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/email_img"
-            android:src="@drawable/codigo"
+            android:src="@drawable/email"
             android:layout_below="@id/linha_4"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/conta_margem_top"
             android:layout_marginRight="@dimen/margem_right_img_usuario"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/dimens_conta"
             style="@style/infos_cashback"
             android:layout_below="@id/linha_4"
             android:layout_toRightOf="@id/email_img"/>
@@ -133,12 +133,12 @@
             android:layout_marginTop="10dp"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/telefone_img"
-            android:src="@drawable/codigo"
+            android:src="@drawable/fone"
             android:layout_below="@id/linha_5"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/conta_margem_top"
             android:layout_marginRight="@dimen/margem_right_img_usuario"/>
 
         <TextView
@@ -148,7 +148,7 @@
             android:text="Telefone"
             android:layout_below="@id/linha_5"
             style="@style/infos_cashback"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/dimens_conta"
             android:layout_toRightOf="@id/telefone_img"/>
 
         <View
@@ -161,20 +161,20 @@
             android:layout_marginTop="10dp"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/senha_img"
             android:layout_below="@id/linha_6"
-            android:src="@drawable/codigo"
-            android:layout_marginTop="10dp"
+            android:src="@drawable/senhaicon"
+            android:layout_marginTop="@dimen/conta_margem_top"
             android:layout_marginRight="@dimen/margem_right_img_usuario"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Senhe"
+            android:text="Senha"
             style="@style/infos_cashback"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/dimens_conta"
             android:layout_below="@id/linha_6"
             android:layout_toRightOf="@id/senha_img"/>
 
@@ -188,12 +188,12 @@
             android:layout_marginTop="10dp"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icons_tela_normal"
+            android:layout_height="@dimen/tamanho_icons_tela_normal"
             android:id="@+id/confirma_senha_img"
-            android:src="@drawable/codigo"
+            android:src="@drawable/senhaicon"
             android:layout_below="@id/linha_7"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/conta_margem_top"
             android:layout_marginRight="@dimen/margem_right_img_usuario"/>
 
         <TextView
@@ -203,7 +203,7 @@
             android:layout_below="@id/linha_7"
             android:layout_toRightOf="@id/confirma_senha_img"
             style="@style/infos_cashback"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="@dimen/dimens_conta"/>
 
         <View
             android:layout_width="match_parent"
@@ -221,7 +221,7 @@
             android:id="@+id/sign_in"
             android:text="Already have an account? Sign in"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="7dp"
             style="@style/infos_cashback"/>
 
 

@@ -7,8 +7,8 @@
     android:layout_marginTop="@dimen/margem_top_layout">
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icons_tela_normal"
+        android:layout_height="@dimen/tamanho_icons_tela_normal"
         android:id="@+id/voltar_detalhes2"
         android:background="@drawable/voltar"/>
 
@@ -167,11 +167,11 @@
         android:layout_marginTop="10dp"/>
 
    <ImageView
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
+       android:layout_width="20dp"
+       android:layout_height="20dp"
        android:id="@+id/historio2"
        android:layout_below="@id/linha_6"
-       android:src="@drawable/historico2"
+       android:src="@drawable/historicodois"
        android:layout_marginTop="@dimen/margem_infos_detalhe"/>
 
     <TextView

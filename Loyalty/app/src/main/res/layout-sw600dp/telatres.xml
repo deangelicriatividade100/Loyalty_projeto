@@ -11,10 +11,10 @@
         android:layout_height="wrap_content">
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icone"
+            android:layout_height="@dimen/tamanho_icone"
             android:id="@+id/botao_sair_tela_tres"
-            android:background="@drawable/logout"/>
+            android:background="@drawable/voltar"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,14 +24,14 @@
             android:layout_centerHorizontal="true"
             style="@style/titulos_telas_secundarias"/>
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icone"
+            android:layout_height="@dimen/tamanho_icone"
             android:id="@+id/botao_add_usuario"
             android:layout_alignParentRight="true"
-            android:background="@drawable/add_usuario"/>
+            android:background="@drawable/addusuario"/>
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/tamanho_icone"
+            android:layout_height="@dimen/tamanho_icone"
             android:id="@+id/botao_pesquisar_tela_tres"
             android:background="@drawable/pesquisar"
             android:layout_below="@id/botao_add_usuario"

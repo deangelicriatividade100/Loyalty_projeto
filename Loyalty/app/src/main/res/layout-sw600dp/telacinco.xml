@@ -7,8 +7,8 @@
     android:layout_marginTop="@dimen/top_margem_layouts">
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icone"
+        android:layout_height="@dimen/tamanho_icone"
         android:id="@+id/voltar_detalhes"
         android:background="@drawable/voltar"/>
 
@@ -21,10 +21,10 @@
         style="@style/titulos_telas_secundarias"/>
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/tamanho_icone"
+        android:layout_height="@dimen/tamanho_icone"
         android:id="@+id/botao_editar"
-        android:background="@drawable/ok"
+        android:background="@drawable/editar"
         android:layout_alignParentRight="true"/>
 
     <TextView

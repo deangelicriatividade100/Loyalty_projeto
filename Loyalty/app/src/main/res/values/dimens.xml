@@ -32,6 +32,9 @@
     <dimen name="height_layout_compra">100dp</dimen>
     <dimen name="padding_layout_compra">30dp</dimen>
     <dimen name="margem_img_historico">30dp</dimen>
+    <dimen name="tamanho_icons_tela_normal">25dp</dimen>
+    <dimen name="dimens_conta">10dp</dimen>
+    <dimen name="conta_margem_top">5dp</dimen>
 
 
 </resources>

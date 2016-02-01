@@ -15,8 +15,11 @@
     <dimen name="top_margem_info_detalhe">45dp</dimen>
     <dimen name="view_margem_top">15dp</dimen>
     <dimen name="top_margem_foto">50dp</dimen>
-    <dimen name="top_margem_tarja">80dp</dimen>
+    <dimen name="top_margem_tarja">40dp</dimen>
     <dimen name="view_margem_top_conta">25dp</dimen>
+    <dimen name="tamanho_icone">35dp</dimen>
+    <dimen name="top_icone">20dp</dimen>
+    <dimen name="top_nome">25dp</dimen>
 
 
 </resources>
